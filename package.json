@@ -20,7 +20,7 @@
     "hubot-telegram": "^1.2.0"
   },
   "scripts": {
-    "start": "TELEGRAM_TOKEN=5657308119:AAF4VrcKXVQpFJg44VKrqaWxeexaNOViGTM  bin/hubot -a telegram",
+    "start": "TELEGRAM_TOKEN=5657308119:AAF4VrcKXVQpFJg44VKrqaWxeexaNOViGTM TELEGRAM_INTERVAL=10000  bin/hubot -a telegram",
     "test": "echo TELEGRAM_TOKEN"
   },
   "engines": {
